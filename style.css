@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*INICIO HEADER*/
+header{
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+.logo{
+    height: 70px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 3;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3B4449;
+    padding: 10px;
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+.nav-content{
+    margin-right: 2em;
+}
+.active{
+    color: #027BC1;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.red-img{
+    width: 18px;
+    margin: 4px;
+    margin-bottom: 5px;
+}
+.contacto-btn{
+    border-radius: 5px;
+    border-style: none;
+    background-color: #50B8B1;
+    color: #fff;
+    padding: 10px 16px;
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+/*FIN HEADER*/
+/*COMIENZO CARRUSEL*/
+.container{
+    width: 100%;
+    height: max-content;
+    background-image: url('assets/img2.jpg');
+}
+/*FIN ARRUSEL*/
+/*INICIO OFERTA ACADEMICA*/
+.flex-academica{
+    display: flex;
+    justify-content: center;
+    
+}
+.study-container{
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding: 20px;
+	margin: 0px 0px 0px 7px;
+}
+.blue{
+	display: inline-block;
+	background-color: #37BBED;
+	border-radius: 6px;
+	margin: 25px 20px 25px 30px;
+}
+.study-comun{
+	font-family: 'Encode Sans', sans-serif;
+	font-style: normal;
+	letter-spacing: 0.2px;
+	width: 320px;
+}
+.study-container h3{
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 28px;
+	color: #000000;
+}
+.study-container h4:first-child{
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 24px;
+	color: #808080;
+}
+.study-container h4:last-child{
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 24px;
+	color: #000000;
+}
+/*FIN OFERTA ACADEMICA*/
+
+/*INICIO NOVEDADES*/
+.nov-flex-container{
+    display: flex;
+}
+.novedad{
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nov-1{
+    background-image: url(/assets/nov1.png); 
+}
+#nov-2{
+    background-image: url(/assets/nov2.png); 
+}
+#nov-3{
+    background-image: url(/assets/nov3.png); 
+}
+#nov-4{
+    background-image: url(/assets/nov4.png); 
+}
+.fecha{
+    display: inline;
+    padding: 8px;
+    background: rgba(55, 187, 237, 0.8);
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 22px;
+/* or 200% */
+
+text-align: center;
+letter-spacing: 0.2px;
+}
+/*FIN NOVERDADES*/
+
+/*INICIO FOOTER*/
+footer{
+    background-color: #3B4449;
+    width: 100%;
+}
+.flex-footer-imgs{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+.flex-footer-imgs img{
+    margin-top: 3em;
+}
+.column-flex{
+    display: flex;
+}
+.column-flex p{
+    display: flex;
+    align-items: center; 
+    padding: 5px;
+    color: #fff;
+}
+.contact-imgs{
+    display: flex;
+    align-items: center;
+}
+.contact-imgs img{
+    margin: 6px 6px 6px 0px;
+    padding: 6px 6px 6px 0;
+}
+/*FIN FOOTER*/
+@media (max-width: 1024px){
+    header{
+        display: flex;
+
+    }
+}
