@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.common-font{
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
 /*INICIO HEADER*/
 header{
     display: flex;
@@ -56,13 +62,13 @@ nav ul li{
     border-radius: 5px;
     border-style: none;
     background-color: #50B8B1;
-    color: #fff;
     padding: 10px 16px;
-    font-family: 'Encode Sans', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
+}
+#contact-link{
+    text-decoration: none;
 }
 /*FIN HEADER*/
 /*COMIENZO CARRUSEL*/
@@ -117,44 +123,105 @@ nav ul li{
 /*FIN OFERTA ACADEMICA*/
 
 /*INICIO NOVEDADES*/
+.nov-title{
+    width: 90%;
+    margin: auto;
+}
+.nov-title h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3B4449;
+}
 .nov-flex-container{
     display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    margin: auto;
 }
 .novedad{
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 18em;
+    margin: 1em;
 }
 #nov-1{
-    background-image: url(/assets/nov1.png); 
+    background-image: url(assets/nov1.png); 
 }
 #nov-2{
-    background-image: url(/assets/nov2.png); 
+    background-image: url(assets/nov2.png); 
 }
 #nov-3{
-    background-image: url(/assets/nov3.png); 
+    background-image: url(assets/nov3.png); 
 }
 #nov-4{
-    background-image: url(/assets/nov4.png); 
+    background-image: url(assets/nov4.png); 
+}
+.fecha-container{
+    margin: 1.3em 1em;
 }
 .fecha{
     display: inline;
-    padding: 8px;
     background: rgba(55, 187, 237, 0.8);
     border-radius: 10px;
-    color: #fff;
-    font-family: 'Encode Sans', sans-serif;
-    font-style: normal;
+    padding: 1em;
     font-weight: 600;
     font-size: 11px;
     line-height: 22px;
-/* or 200% */
-
-text-align: center;
-letter-spacing: 0.2px;
+    text-align: center;
+}
+.nov-description{
+    background: rgba(59, 68, 73, 0.8);
+    border-radius: 5px;
+    padding: 1em;
+}
+.nov-description p{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+}
+.nov-description h4{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
 }
 /*FIN NOVERDADES*/
-
+/*INICIO SEDES*/
+.sedes-container{
+    width: 90%;
+    margin: auto;
+    background-image: url("assets/sedes/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.sedes-filter{
+    width: 100%;
+    margin: auto;
+    padding: 3em;
+    background-color: rgba(59,68,73,0.85);
+    border-radius: 5px;
+}
+#sedes-title{
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 80px;
+}
+.imgs-container{
+    display: flex;
+    justify-content: center;
+}
+.sede-img{
+    margin: auto 2em;
+}
+/*FIN SEDES*/
 /*INICIO FOOTER*/
 footer{
     background-color: #3B4449;
