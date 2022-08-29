@@ -236,10 +236,12 @@ nav ul li{
 }
 .flex-events{
     display: flex;
+    justify-content: space-between;
     width: 90%;
     margin: auto;
 }
 .event{
+    width: 22%;
     background: rgba(255, 255, 255, 0.75);
     border-radius: 5px;
     padding: 1em;
@@ -267,7 +269,7 @@ nav ul li{
 }
 .month-line{
     background-color: #50B8B1;
-    max-width: 5em;
+    width: 25%;
     height: .4em;
 }
 .event-text{
