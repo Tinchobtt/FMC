@@ -381,6 +381,19 @@ footer{
     padding: 6px 6px 6px 0;
 }
 /*FIN FOOTER*/
+.button-up{
+    width: 60px;
+    height: 60px;
+    background-color: #37BBED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 1.5em;
+    right: 2em;
+    font-size: 24px;
+}
 @media (max-width: 950px){
     
 }
