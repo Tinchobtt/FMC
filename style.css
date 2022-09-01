@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.common-font{
+body{
     font-family: 'Encode Sans', sans-serif;
     font-style: normal;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    color: #fff;
 }
 /*INICIO HEADER*/
 header{
@@ -40,7 +40,7 @@ nav{
     font-size: 12px;
 }
 .nav-content li a:hover{
-    color: #000;
+    color: #027BC1;
 }
 .nav-content > li{
     float: left;
@@ -51,13 +51,16 @@ nav{
     margin-top: .5em;
 }
 .nav-content li ul{
-    display: none;
+    visibility: hidden;
 	position: absolute;
+    box-shadow: 0px 0px 3px #000;
+    transition: .4s;
+    margin-top: .5em;
 }
 .nav-content li:hover > ul{
-	display: block;
+	visibility: visible;
 }
-.active{
+#active{
     color: #027BC1 !important;
 }
 .redes{
@@ -79,6 +82,7 @@ nav{
 }
 #contact-link{
     text-decoration: none;
+    color: #fff;
 }
 .right-column{
     display: flex;
@@ -142,6 +146,7 @@ nav{
 }
 .dropdown-study ul,li,a{
     border-radius: 0px 0px 5px 5px;
+    color: #fff;
 }
 .dropdown-study ul{
     display: none;
@@ -149,7 +154,6 @@ nav{
     width:21.6%;
     padding: 1em 2em;
     background-color: #37BBED;
-    transition: 1s;
 }
 .dropdown-study:hover ul{
 	display: block;
