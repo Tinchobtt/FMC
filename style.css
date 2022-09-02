@@ -54,7 +54,7 @@ nav{
     visibility: hidden;
 	position: absolute;
     box-shadow: -1px 0px 3px #000;
-    transition: .4s;
+    transition: .1s;
     margin-top: .5em;
     background-color: #fff;
 }
@@ -269,8 +269,7 @@ nav{
     border-radius: 5px;
 }
 #sedes-title{
-    margin: 0 auto 1em auto;
-    height: auto;
+    margin: 1em auto 2.5em auto;
     text-align: center;
     font-weight: 700;
     font-size: 16px;
@@ -281,6 +280,10 @@ nav{
 }
 .sede-img{
     margin: auto 2em;
+    transition: 0.5s;
+}
+.sede-img:hover{
+    transform: scale(1.1);
 }
 /*FIN SEDES*/
 /*INICIO EVENTOS*/
@@ -422,6 +425,6 @@ footer{
     right: 2em;
     font-size: 24px;
 }
-@media (max-width: 950px){
+@media (max-width: 1024px){
     
 }
