@@ -189,7 +189,6 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: auto;
     margin: auto;
 }
 .novedad{
@@ -203,19 +202,19 @@ nav{
     width: 24%;
 }
 #nov-1{
-    background-image: url(assets/nov1.png);
+    background-image: url(assets/novedades/nov1.png);
     border-radius: 0 0 5px 5px; 
 }
 #nov-2{
-    background-image: url(assets/nov2.png);
+    background-image: url(assets/novedades/nov2.png);
     border-radius: 0 0 5px 5px; 
 }
 #nov-3{
-    background-image: url(assets/nov3.png);
+    background-image: url(assets/novedades/nov3.png);
     border-radius: 0 0 5px 5px; 
 }
 #nov-4{
-    background-image: url(assets/nov4.png);
+    background-image: url(assets/novedades/nov4.png);
     border-radius: 0 0 5px 5px; 
 }
 .fecha-container{
@@ -234,6 +233,10 @@ nav{
     background: rgba(59, 68, 73, 0.8);
     border-radius: 5px;
     padding: 1em;
+    overflow: scroll;
+}
+.nov-description::-webkit-scrollbar {
+    display: none;
 }
 .nov-description p{
     display: none;
@@ -424,6 +427,11 @@ footer{
     bottom: 1.5em;
     right: 2em;
     font-size: 24px;
+}
+.center{
+    width: 90%;
+    margin: auto;
+    color: #000;
 }
 @media (max-width: 1024px){
     
