@@ -7,7 +7,6 @@ body{
     font-family: 'Encode Sans', sans-serif;
     font-style: normal;
     letter-spacing: 0.2px;
-  
 }
 /*INICIO HEADER*/
 header{
@@ -171,11 +170,25 @@ nav{
 .dropdown-study:hover p{
     border-radius: 0;
 }
+.FA-link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 90%;
+    margin: auto;
+}
+.FA-link a{
+    text-decoration: none;
+    margin-top: 7em;
+    font-size: 15px;
+    font-weight: 600;
+    color: #37BBED;
+}
 /*FIN OFERTA ACADEMICA*/
 /*INICIO NOVEDADES*/
 .nov-container{
     width: 90%;
-    margin: 6em auto;
+    margin: 3em auto 6em auto;
 }
 .nov-title{
     width: 100%;
@@ -446,11 +459,27 @@ footer{
     margin: auto 1.2em;
 }
 .portada-img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     width: 100%;
-    
+    height: 20em;
+}
+.portada-filter-title{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 20%;
+    margin-bottom: 1.2em;
+    padding-left: .5em;
+    background: rgba(59, 68, 73, 0.7);
+    border-radius: 3px;
+    font-weight: 800;
+    font-size: 28px;    
+    color: #fff;
 }
 .center{
-    width: 90%;
+    width: 70%;
     margin: auto;
     color: #000;
 }
