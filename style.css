@@ -7,7 +7,7 @@ body{
     font-family: 'Encode Sans', sans-serif;
     font-style: normal;
     letter-spacing: 0.2px;
-    color: #fff;
+  
 }
 /*INICIO HEADER*/
 header{
@@ -141,6 +141,7 @@ nav{
     background-color: #37BBED;
     border-radius: 0px 0px 5px 5px;
     padding: 1em;
+    color: #fff;
 }
 .dropdown-study ul li{
     padding: 0.2em;
@@ -200,6 +201,7 @@ nav{
     height: 18em;
     margin: 1em 0;
     width: 24%;
+    color: #fff;
 }
 #nov-1{
     background-image: url(assets/novedades/nov1.png);
@@ -276,6 +278,7 @@ nav{
     text-align: center;
     font-weight: 700;
     font-size: 16px;
+    color: #fff;
 }
 .imgs-container{
     display: flex;
@@ -301,6 +304,7 @@ nav{
     width: 90%;
     padding: 0 0 2em 0;
     margin: auto;
+    color: #fff;
 }
 .event-title-link a{
     text-decoration: none;
@@ -427,6 +431,23 @@ footer{
     bottom: 1.5em;
     right: 2em;
     font-size: 24px;
+}
+/*CONFIG HTMLs*/
+.traza{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #3B4449;
+}
+.traza img{
+    margin: auto 1.2em;
+}
+.portada-img{
+    width: 100%;
+    
 }
 .center{
     width: 90%;
