@@ -15,7 +15,7 @@ header{
     margin: 1.5em auto;
 }
 .logo{
-    height: 4em;
+    height: 4.6em;
 }
 .logo-container{
     display: flex;
@@ -61,7 +61,7 @@ nav{
 	visibility: visible;
 }
 #active{
-    color: #027BC1 !important;
+    color: #027BC1;
 }
 .redes{
     display: flex;
@@ -71,11 +71,15 @@ nav{
     width: 18px;
     margin: 4px;
     margin-bottom: 5px;
+    transition: .5s;
+}
+.red-img:hover{
+    transform: translateY(-5px);
 }
 .contacto-btn{
     border-radius: 5px;
     border-style: none;
-    background-color: #50B8B1;
+    background-color: #1db6ac;
     padding: 10px 16px;
     font-weight: 700;
     font-size: 14px;
@@ -150,7 +154,7 @@ nav{
     font-weight: 500;
     font-size: 12px;
 }
-.dropdown-study ul li a:hover{
+.dropdown-study ul li:hover a{
     color: #3B4449;
 }
 .dropdown-study ul,li,a{
@@ -183,6 +187,9 @@ nav{
     font-size: 15px;
     font-weight: 600;
     color: #37BBED;
+}
+.FA-link a:hover{
+    color: #027BC1;
 }
 /*FIN OFERTA ACADEMICA*/
 /*INICIO NOVEDADES*/
@@ -290,7 +297,7 @@ nav{
     margin: 1em auto 2.5em auto;
     text-align: center;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
 }
 .imgs-container{
@@ -404,13 +411,6 @@ footer{
     margin: auto;
     padding-bottom: 4em;
 }
-.column-flex{
-    display: flex;
-}
-.column-flex p{
-    padding: 5px;
-    color: #fff;
-}
 .contact-column{
     display: flex;
     flex-direction: column;
@@ -425,11 +425,33 @@ footer{
 .contact-column div{
     margin-top: 1em;
 }
+.column-flex{
+    display: flex;
+    align-items: center;
+}
+.column-flex p{
+    margin-left: 1em;
+    color: #fff;
+}
+.column-flex a{
+    margin: 0;
+    color: #fff;
+}
 .contact-imgs{
     display: flex;
 }
 .contact-imgs a{
-    margin: auto .5em auto 0 ;
+    margin: auto 1em auto 0 ;
+}
+#maps{
+    padding: 5px;
+    color: #fff;
+}
+.contact-imgs a img{ 
+    transition: .5s;
+}
+.contact-imgs a img:hover{ 
+    transform: translateY(-5px);
 }
 /*FIN FOOTER*/
 .button-up{
@@ -444,6 +466,9 @@ footer{
     bottom: 1.5em;
     right: 2em;
     font-size: 24px;
+}
+.button-up:hover{
+    background-color: #027BC1;
 }
 /*CONFIG HTMLs*/
 .traza{

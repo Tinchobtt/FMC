@@ -1,0 +1,3 @@
+Footer: la direccion te lleva a maps y el mail a un envio automatico
+
+HTMLs: Eventos y Noverdades
