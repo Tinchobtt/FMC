@@ -493,7 +493,7 @@ footer{
 .portada-filter-title{
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 90%;
     height: 20%;
     margin-bottom: 1.2em;
     padding-left: .5em;
@@ -508,6 +508,8 @@ footer{
     margin: auto;
     color: #000;
 }
+/*HTML OFERTA ACADEMICA*/
+
 @media (max-width: 1024px){
     
 }
