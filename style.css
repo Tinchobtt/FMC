@@ -33,8 +33,7 @@ nav{
     text-decoration: none;
     color: #3B4449;
     padding: 0 1em;
-    font-family: 'Encode Sans', sans-serif;
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 12px;
 }
@@ -56,6 +55,7 @@ nav{
     transition: .1s;
     margin-top: .5em;
     background-color: #fff;
+    border-radius: 2px;
 }
 .nav-content li:hover > ul{
 	visibility: visible;
@@ -148,6 +148,9 @@ nav{
 }
 .dropdown-study ul li{
     padding: 0.2em;
+}
+.dropdown-study ul li::marker{
+    color: #fff;
 }
 .dropdown-study ul li a{
     text-decoration: none;
@@ -402,6 +405,7 @@ footer{
     margin: 0 auto 4em auto;
 }
 .flex-footer-imgs img{
+    width: 90%;
     margin-top: 3em;
 }
 .footer-container-flex{
@@ -457,7 +461,7 @@ footer{
 .button-up{
     width: 60px;
     height: 60px;
-    background-color: #37BBED;
+    background-color: rgba(55,187,237,0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -468,7 +472,7 @@ footer{
     font-size: 24px;
 }
 .button-up:hover{
-    background-color: #027BC1;
+    background-color: rgba(2,123,193,0.8);
 }
 /*CONFIG HTMLs*/
 .traza{
@@ -489,6 +493,7 @@ footer{
     align-items: flex-end;
     width: 100%;
     height: 20em;
+    margin: 1em auto 4em auto;
 }
 .portada-filter-title{
     display: flex;
@@ -509,7 +514,60 @@ footer{
     color: #000;
 }
 /*HTML OFERTA ACADEMICA*/
-
+.FA-container{
+    margin-bottom: 2em;
+}
+.FA-title-sede{
+    width: 90%;
+    margin: 2em auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+.FA-title-sede h3{
+    color: #3B4449;
+    margin-top: 1em;
+    font-size: 20px;
+    font-weight: 500;
+}
+.blue{
+    position: relative;
+    width: 44%;
+    min-width: 21em;
+    background-color: #37BBED;
+    border-radius: 6px;
+    margin: 2em;
+}
+.FA-block{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 8px;
+    padding: 1em 2.5em;
+    background: #f1f1f1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 6px 6px 0;
+    transition: .5s;
+}
+.FA-block h3{
+    color: #3B4449;
+    margin-bottom: 1.4em;
+}
+.FA-block ul li::marker,li{
+    color: #000;
+    padding: .2em;
+    margin-left: 1.4em;
+}
+.FA-block ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.FA-block ul li a:hover{
+    color: #37BBED;
+}
+.dashed-line{
+    border: 1px dashed rgba(0, 0, 0, 0.25);
+}
 @media (max-width: 1024px){
     
 }
