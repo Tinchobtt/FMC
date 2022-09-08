@@ -33,7 +33,6 @@ nav{
     text-decoration: none;
     color: #3B4449;
     padding: 0 1em;
-    
     font-weight: 700;
     font-size: 12px;
 }
@@ -56,6 +55,9 @@ nav{
     margin-top: .5em;
     background-color: #fff;
     border-radius: 2px;
+}
+.nav-content li ul li{
+    margin: .2em .5em;
 }
 .nav-content li:hover > ul{
 	visibility: visible;
@@ -509,9 +511,30 @@ footer{
     color: #fff;
 }
 .center{
-    width: 70%;
-    margin: auto;
+    width: 90%;
+    margin: 4em auto;
+}
+.center p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
     color: #000;
+}
+.center img{
+    width: 6em;
+    border-radius: 3px 0 0 3px;
+}
+/*HTML AUTORIDADES*/
+.autoridad{
+    display: flex;
+    align-items: center;
+    margin: 2em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    background-color: whitesmoke;
+}
+.autoridad p{
+    margin-left: 1em;
 }
 /*HTML OFERTA ACADEMICA*/
 .FA-container{
@@ -522,6 +545,10 @@ footer{
     margin: 2em auto;
     font-size: 14px;
     font-weight: 500;
+    color: #000;
+}
+.FA-title-sede h2 a{
+    text-decoration: none;
     color: #000;
 }
 .FA-title-sede h3{
