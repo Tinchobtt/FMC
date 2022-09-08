@@ -246,7 +246,7 @@ nav{
     margin: 1.3em 1em;
 }
 .nov-fecha{
-    display: inline;
+    width: 45%;
     background: rgba(55, 187, 237, 0.8);
     border-radius: 10px;
     padding: 1em;
