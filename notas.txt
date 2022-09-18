@@ -8,3 +8,6 @@ TO DO LIST:
 		PC >= 1200px
 		900 > TABLET < 1200
 		CELULAR <= 900
+
+- Crear otro CSS para los HTMLs que contenga el header y footer y todas los estilos de los HTMLs 
+	Asi organizo mejor el codigo y creo que ahorro recursos
