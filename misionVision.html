@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name = 'author' content = 'Martin Benedetto'>
 	<link rel="icon" href="assets/logos/logo-head.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -13,47 +13,49 @@
 </head>
 <body>
     <header id="header"> 
-		<div class="logo-container">
-            <img class='logo' src="assets/logos/logo.png" alt="logo">
+		<div class="header-container">
+			<div class="logo-container">
+				<img class='logo' src="assets/logos/logo.png" alt="logo">
+			</div>
+			<nav>
+				<ul class="nav-content">
+					<li><a href="index.html">HOME</a></li>
+					<li><a id="active" href="#">INSTITUCIONAL</a>
+						<ul class="dropdown-nav">
+							<li><a href="origenes.html">SUS ORIGENES</a></li>
+							<li><a href="misionVision.html">MISIÓN Y VISIÓN</a></li>
+							<li><a href="autoridades.html">AUTORIDADES</a></li>
+						</ul>
+					</li>
+					<li><a href="ofertaAcademica.html">OFERTA ACADÉMICA</a></li>
+					<li><a href="index.html#novedades">NOVEDADES</a></li>
+					<li><a href="#">INVESTIGACIÓN</a>
+						<ul class="dropdown-nav">
+							<li><a href="lineasInv.html">LÍNEAS DE INVESTIGACIÓN</a></li>
+							<li><a href="actividadesInv.html">ACTIVIDADES DE INVESTIGACIÓN</a></li>
+						</ul>
+					</li>
+					<li><a href="#">EXTENSIÓN</a>
+						<ul class="dropdown-nav">
+							<li><a href="lineasExt.html">LÍNEAS DE EXTENSIÓN</a></li>
+							<li><a href="actividadesExt.html">ACTIVIDADES DE EXTENSIÓN</a></li>
+							<li><a href="biblioteca.html">BIBLIOTECA</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div class="right-column">
+				<divc class="redes">
+					<a href="https://www.facebook.com/Facultad-Militar-Conjunta-109912505188760" target="_blank"><img class='red-img' src="assets/redes/fb.ico" alt="facebook"></a>
+					<a href="https://www.instagram.com/fmc.arg/" target="_blank"><img class='red-img' src="assets/redes/ig.ico" alt="instagram"></a>
+					<a href="#" target="_blank"><img class='red-img' src="assets/redes/in.png" alt="linkedin"></a>
+					<a href="https://www.youtube.com/channel/UCdCf_VGV-U4CelqrLtdLSeg" target="_blank"><img class='red-img' src="assets/redes/yt.ico" alt="youtube"></a>
+				</divc>
+				<div class="contacto-div">
+					<button class="contacto-btn"><a id="contact-link" href='#contacto'>CONTACTO</a></button>
+				</div>
+			</div>
 		</div>
-        <nav>
-			<ul class="nav-content">
-				<li><a href="index.html">HOME</a></li>
-				<li><a id="active" href="#">INSTITUCIONAL</a>
-					<ul class="dropdown-nav">
-						<li><a href="origenes.html">SUS ORIGENES</a></li>
-						<li><a href="misionVision.html">MISIÓN Y VISIÓN</a></li>
-						<li><a href="autoridades.html">AUTORIDADES</a></li>
-					</ul>
-				</li>
-				<li><a href="ofertaAcademica.html">OFERTA ACADÉMICA</a></li>
-				<li><a href="index.html#novedades">NOVEDADES</a></li>
-				<li><a href="#">INVESTIGACIÓN</a>
-					<ul class="dropdown-nav">
-						<li><a href="lineasInv.html">LÍNEAS DE INVESTIGACIÓN</a></li>
-						<li><a href="actividadesInv.html">ACTIVIDADES DE INVESTIGACIÓN</a></li>
-					</ul>
-				</li>
-				<li><a href="#">EXTENSIÓN</a>
-					<ul class="dropdown-nav">
-						<li><a href="lineasExt.html">LÍNEAS DE EXTENSIÓN</a></li>
-						<li><a href="actividadesExt.html">ACTIVIDADES DE EXTENSIÓN</a></li>
-						<li><a href="biblioteca.html">BIBLIOTECA</a></li>
-					</ul>
-				</li>
-			</ul>
-        </nav>
-        <div class="right-column">
-            <divc class="redes">
-                <a href="https://www.facebook.com/Facultad-Militar-Conjunta-109912505188760" target="_blank"><img class='red-img' src="assets/redes/fb.ico" alt="facebook"></a>
-                <a href="https://www.instagram.com/fmc.arg/" target="_blank"><img class='red-img' src="assets/redes/ig.ico" alt="instagram"></a>
-                <a href="#" target="_blank"><img class='red-img' src="assets/redes/in.png" alt="linkedin"></a>
-                <a href="https://www.youtube.com/channel/UCdCf_VGV-U4CelqrLtdLSeg" target="_blank"><img class='red-img' src="assets/redes/yt.ico" alt="youtube"></a>
-            </divc>
-            <div class="contacto-div">
-                <button class="contacto-btn"><a id="contact-link" href='#contacto'>CONTACTO</a></button>
-            </div>
-        </div>
     </header>
 	<section id="misionVision">
 		<div class="traza">
