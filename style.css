@@ -200,7 +200,7 @@ body{
 .nov-description{
     position: absolute;
     bottom: 0;
-    background: rgba(59, 68, 73, 0.8);
+    background: rgba(59, 68, 73, 0.6);
     border-radius: 0 0 5px 5px;
     padding: 1em;
 }
