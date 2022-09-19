@@ -336,14 +336,5 @@ body{
     font-size: 11px;
 }
 /*FIN EVENTOS*/
-/*MONITOR > 27*/
-@media (max-width: 1920px){
-    body{
-        width: 80%;
-        margin: auto;
-    }
-}
-/*TABLET*/
-@media (max-width: 1024px){
-    
-}
+
+
