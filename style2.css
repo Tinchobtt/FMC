@@ -342,7 +342,7 @@ footer{
         margin: auto;
     }
 }
-@media (max-width: 1400px){
+@media (max-width: 1350px){
     body{
         width: 100%;
         margin: auto;
