@@ -154,7 +154,7 @@ body{
 }
 .nov-title{
     width: 100%;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 .nov-title h3{
     font-weight: 700;
@@ -274,6 +274,9 @@ body{
 .event-title-link a{
     text-decoration: none;
     color: #fff;
+}
+.event-title-link a:hover{
+    color: #3B4449;
 }
 .flex-events{
     display: flex;

@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
-    display: block;
-}
 html{
     scroll-behavior: smooth;
 }
@@ -223,7 +220,7 @@ footer{
     align-items: flex-end;
     width: 100%;
     height: 20em;
-    margin: 1em auto 4em auto;
+    margin: 1em auto 0 auto;
 }
 .portada-filter-title{
     display: flex;
@@ -245,33 +242,36 @@ footer{
     padding: 4em 0;
     margin: auto;
 }
-.center p{
+.content-html{
+    box-shadow: -2px 2px 5px rgba(0,0,0,.5);
+    padding: 1.5em;
+}
+.content-html p{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
     color: #000;
 }
-.center img{
-    width: 6em;
-    border-radius: 3px 0 0 3px;
-}
 /*HTML AUTORIDADES*/
 .autoridad{
     display: flex;
     align-items: center;
-    margin: 2em;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2em;
+    box-shadow: -2px 2px 8px rgba(0,0,0,.8);
     border-radius: 3px;
-    background-color: whitesmoke;
 }
 .autoridad p{
     margin-left: 1em;
+}
+.autoridad img{
+    width: 6em;
+    border-radius: 3px 0 0 3px;
 }
 /*HTML OFERTA ACADEMICA*/
 .FA-container{
     width: 90%;
     margin: auto;
-    padding-bottom: 2em;
+    padding: 3em 0;
 }
 .FA-title-sede{
     width: 100%;
@@ -335,6 +335,21 @@ footer{
     width: 100%;
     border: 1px dashed rgba(0, 0, 0, 0.25);
 }
+/*LINEAS INVESTIGACION Y EXTENSION*/
+.lineas-container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -2px 2px 8px rgba(0,0,0,.8);
+}
+.lineas-content{
+    padding: 1.5em;
+    border-radius: 3px 0 0 3px;
+}
+.lineas-container img{
+    width: 50%;
+    border-radius: 0 3px 3px 0;
+}
+
 /*MONITOR > 27*/
 @media (max-width: 1920px){
     body{
