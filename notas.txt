@@ -1,5 +1,4 @@
 TO DO LIST:
-- Hacer que las novedades sean como los eventos. Que se muestre todo el texto, nada de hover.
 - Crear la seccion "Mas Novedades" y "Mas Eventos" y un HTML para cada novedad y evento.
 - Hacer Nav con JavaScript, en vez de hover que sea con un click.
 - Lo mismo con la Oferta Academica.
@@ -9,5 +8,4 @@ TO DO LIST:
 		900 > TABLET < 1200
 		CELULAR <= 900
 
-- Crear otro CSS para los HTMLs que contenga el header y footer y todas los estilos de los HTMLs 
-	Asi organizo mejor el codigo y creo que ahorro recursos
+- Nueva forma de portada en los HTMLs, hay que cambiar el html de todos, el css esta listo
