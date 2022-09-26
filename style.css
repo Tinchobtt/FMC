@@ -26,9 +26,19 @@ body{
     align-items: center;
     transition: .8s;
 }
-.carrousel .crsel-img{
+.carrousel .crsel-block{
+    display: flex;
     width: calc(100% / 4);
     max-height: 30em;
+}
+.crsel-block img{
+    width: 70%;
+    max-height: 30em;
+}
+.carrousel .crsel-block .crsel-content{
+    width: 30%;
+    height: 30em;
+    background-color: #3B4449;
 }
 .carrousel .puntos{
     display: flex;
