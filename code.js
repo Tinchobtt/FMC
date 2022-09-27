@@ -1,16 +1,23 @@
 const grande = document.querySelector('.grande');
 const punto = document.querySelectorAll('.punto');
+const block = document.querySelectorAll('.crsel-content');
+
+block.forEach( (cadaBlock, j)=>{
+    if(j != 0){
+        block[j].style.opacity = 0;
+    }
+})
 
 punto.forEach( (cadaPunto, i)=>{
     punto[i].addEventListener('click',()=>{
-        let posicion = i;
-        let operacion = position(i);
-        grande.style.transform = `translateX(${operacion}%)`
-
-        punto.forEach( (cadaPunto, i)=>{
-            punto[i].classList.remove('activo');
-        });
-        punto[i].classList.add('activo');    
+            let operacion = position(i);
+            grande.style.transform = `translateX(${operacion}%)`
+            punto.forEach( (cadaPunto, i)=>{
+                punto[i].classList.remove('activo');
+                block[i].style.opacity = 0;
+            });
+            punto[i].classList.add('activo');  
+            block[i].style.opacity = 1;
     })
 });
 
@@ -20,3 +27,4 @@ function position(i){
     else if(i==2){ return -50; }
     else{ return -75; }
 };
+
