@@ -362,19 +362,55 @@ footer{
     width: 100%;
     border: 1px dashed rgba(0, 0, 0, 0.25);
 }
-/*LINEAS INVESTIGACION Y EXTENSION*/
-.lineas-container{
+/*INVESTIGACION Y EXTENSION*/
+.page-container{
     display: flex;
     justify-content: space-between;
     box-shadow: -2px 2px 8px rgba(0,0,0,.8);
 }
-.lineas-content{
+.page-content{
     padding: 1.5em;
     border-radius: 3px 0 0 3px;
 }
-.lineas-container img{
+.page-content a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.page-content ul{
+    padding: 1.2em 0;
+}
+.page-container img{
     width: 50%;
     border-radius: 0 3px 3px 0;
+    object-fit: cover;
+}
+/*BIBLIOTECA*/
+.biblioteca-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2em 0;
+}
+.biblioteca-container .libro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 21.5em;
+    margin: 2em auto;
+    padding: 1.5em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: #37BBED;
+    box-shadow: -2px 2px 8px rgba(0,0,0,.8);
+    transition: .5s;
+}
+.biblioteca-container .libro:hover{
+    color: #027BC1;
+    transform: scale(1.1);
 }
 
 /*MONITOR > 27*/
