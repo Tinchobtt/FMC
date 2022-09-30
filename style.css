@@ -142,6 +142,7 @@ body{
     font-weight: 500;
     font-size: 12px;
     color: #fff;
+    transition: .3s;
 }
 .dropdown-study ul li:hover a{
     color: #3B4449;
@@ -177,6 +178,7 @@ body{
     font-size: 15px;
     font-weight: 600;
     color: #37BBED;
+    transition: .3s;
 }
 .FA-link a:hover{
     color: #027BC1;
@@ -287,7 +289,7 @@ body{
 }
 .sede-img{
     margin: auto 2em;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .sede-img:hover{
     transform: scale(1.1);
@@ -310,6 +312,7 @@ body{
 .event-title-link a{
     text-decoration: none;
     color: #fff;
+    transition: .3s;
 }
 .event-title-link a:hover{
     color: #3B4449;
@@ -371,8 +374,12 @@ body{
     align-self: flex-end;
     text-decoration: none;
     color: #74C9DF;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 11px;
+    transition: .3s;
+}
+.event-time-info a:hover{
+    color: #027BC1;
 }
 /*FIN EVENTOS*/
 
