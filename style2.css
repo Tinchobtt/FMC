@@ -119,6 +119,10 @@ nav{
     padding: 10px 16px;
     font-weight: 700;
     font-size: 14px;
+    transition: .5s;
+}
+.contacto-btn:hover{
+    background-color: #19857d;
 }
 #contact-link{
     text-decoration: none;
@@ -237,6 +241,7 @@ footer{
 }
 .portada-img{
     position: relative;
+    background: linear-gradient(90deg, rgba(2,123,193,1) 11%, rgba(13,136,202,1) 27%, rgba(41,170,226,1) 43%, rgba(55,187,237,1) 63%, rgba(32,183,180,1) 78%, rgba(29,182,172,1) 87%);
 }
 .portada-img img{
     display: flex;
@@ -246,7 +251,6 @@ footer{
     width: 100%;
     height: 20em;
     margin: 1em auto 0 auto;
-    background: linear-gradient(90deg, rgba(2,123,193,1) 11%, rgba(13,136,202,1) 27%, rgba(41,170,226,1) 43%, rgba(55,187,237,1) 63%, rgba(32,183,180,1) 78%, rgba(29,182,172,1) 87%);
 }
 .portada-img h2{
     position: absolute;
@@ -404,6 +408,7 @@ footer{
     justify-content: center;
     text-align: center;
     width: 21.5em;
+    height: 5.5em;
     margin: 2em auto;
     padding: 1.5em 2em;
     text-decoration: none;
@@ -440,5 +445,43 @@ footer{
     }
     .button-up{
         display: none;
+    }
+    .carrousel .crsel-block .crsel-content{
+        width: 50%;
+        padding: 1.5em;
+    }
+    .carrousel .crsel-block .crsel-content h3{
+        font-size: 1.5vw; 
+    }
+    .carrousel .crsel-block .crsel-content h1{
+        font-size: 4vw; 
+    }
+    .carrousel .crsel-block .crsel-content p{
+        font-size: 1.8vw; 
+    }
+    .nov-flex-container{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .novedad{
+        width: 18em;
+    }
+}
+@media (max-width: 900px){
+    .FA-flex-container{
+        flex-wrap: wrap;
+    }
+    .study{
+        width: 18em;
+        margin-bottom: 2em;
+    }
+}
+@media (max-width: 650px){
+    .FA-flex-container{
+        justify-content: space-between;
+        justify-content: center;
+    }
+    .study{
+        width: 22em;
     }
 }

@@ -8,4 +8,3 @@ TO DO LIST:
 		900 > TABLET < 1200
 		CELULAR <= 900
 
-- Nueva forma de portada en los HTMLs, hay que cambiar el html de todos, el css esta listo

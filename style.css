@@ -14,7 +14,7 @@ body{
 /*COMIENZO CARRUSEL*/
 .carrousel{
     width: 100%;
-    height: 35em;
+    max-height: 35em;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -90,6 +90,7 @@ body{
 .FA-title{
     width: 90%;
     margin: 0 auto 3em auto;
+    padding-top: 2em;
 }
 .FA-title h2{
     font-weight: 700;
@@ -289,7 +290,7 @@ body{
 }
 .sede-img{
     margin: auto 2em;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 .sede-img:hover{
     transform: scale(1.1);
