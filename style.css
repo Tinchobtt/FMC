@@ -211,6 +211,7 @@ body{
     width: 100%;
     height: 22em;
     border-radius: 5px;
+    object-fit: cover;
 }
 .novedad{
     position: relative;
@@ -277,11 +278,11 @@ body{
     background-color: rgba(59,68,73,0.85);
     border-radius: 5px;
 }
-#sedes-title{
+.sedes-filter h3{
     margin: 1em auto 2.5em auto;
     text-align: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
 }
 .imgs-container{
@@ -311,6 +312,7 @@ body{
     color: #fff;
 }
 .event-title-link a{
+    display: inline-block;
     text-decoration: none;
     color: #fff;
     transition: .3s;
@@ -325,7 +327,7 @@ body{
     margin: auto;
 }
 .event{
-    width: 22%;
+    width: 23%;
     background: rgba(255, 255, 255, 0.75);
     border-radius: 5px;
     padding: 1em;
@@ -370,6 +372,7 @@ body{
     color: #000000;
     font-weight: 300;
     font-size: 15px;
+    margin-right: .5em;
 }
 .event-time-info a{
     align-self: flex-end;

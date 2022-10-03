@@ -181,6 +181,10 @@ footer{
 .contact-column{
     display: flex;
     flex-direction: column;
+    margin-right: 2em;
+}
+#last-column{
+    margin-right: 0;
 }
 .contact-column a{
     margin-top: 2em;
@@ -459,12 +463,24 @@ footer{
     .carrousel .crsel-block .crsel-content p{
         font-size: 1.8vw; 
     }
-    .nov-flex-container{
-        flex-wrap: wrap;
-        margin: auto;
+}
+@media (max-width: 960px){
+    /*HEADER*/
+    .header-container{
+        flex-direction: column;
+        position: relative;
     }
-    .novedad{
-        width: 18em;
+    .logo-container{
+        position: relative;
+    }
+    .right-column{
+        position: absolute;
+        right: 0;
+    }
+    .header-container nav{
+        order: 1;
+        justify-content: center;
+        margin-top: 1.5em;
     }
 }
 @media (max-width: 900px){
@@ -472,8 +488,45 @@ footer{
         flex-wrap: wrap;
     }
     .study{
-        width: 18em;
-        margin-bottom: 2em;
+        width: 21em;
+        margin-bottom: 4em;
+    }   
+    .nov-flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .novedad{
+        width: 22em;
+    }
+    .fecha-container{
+        width: 50%;
+    }
+    .nov-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30%;
+    }
+    .imgs-container{
+        flex-wrap: wrap;
+    }
+    .flex-events{
+        flex-direction: column;
+        align-items: center;
+    }
+    .event-title-link{
+        padding: 0;
+    }
+    .event{
+        width: 28em;
+        margin-top: 3em;
+    }
+}
+@media (max-width: 800px){
+    .FA-flex-container{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
     }
 }
 @media (max-width: 650px){
@@ -483,5 +536,16 @@ footer{
     }
     .study{
         width: 22em;
+    }
+    .imgs-container{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sedes-filter h3{
+        margin: 0 auto;
+    }
+    .sede-img{
+        margin-top: 3em;
     }
 }
