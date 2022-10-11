@@ -44,7 +44,7 @@ body{
     justify-content: center;
     width: 40%;
     height: 100%;
-    padding: 6em 3em;
+    padding: 4em 2em;
     background-color: rgba(0, 0, 0, 0.4);
     text-decoration: none;
     transition: ease-in 1s;
@@ -57,13 +57,35 @@ body{
 .carrousel .crsel-block .crsel-content h1{
     margin: .5em 0 .8em 0;
     font-weight: 600;
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: #fff;
+}
+.carrousel .crsel-block .crsel-content ul li{
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #fff;
+    margin-bottom: .5em;
 }
 .carrousel .crsel-block .crsel-content p{
     font-weight: 400;
     font-size: 1.2vw;
     color: #fff;
+    margin-bottom: .5em;
+}
+.carrousel .crsel-block .crsel-content span{
+    align-self: flex-start;
+    width: auto;
+    height: auto;
+    margin-top: 2em;
+    padding: .8em;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #37BBED;
+    transition: .5s;
+}
+.carrousel .crsel-block .crsel-content span:hover{
+    background-color: #027BC1;
 }
 .carrousel .puntos{
     display: flex;

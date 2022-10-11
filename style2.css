@@ -458,7 +458,7 @@ footer{
         font-size: 1.5vw; 
     }
     .carrousel .crsel-block .crsel-content h1{
-        font-size: 4vw; 
+        font-size: 3vw; 
     }
     .carrousel .crsel-block .crsel-content p{
         font-size: 1.8vw; 
@@ -520,6 +520,23 @@ footer{
     .event{
         width: 28em;
         margin-top: 3em;
+    }
+    .flex-footer-imgs{
+        margin-bottom: 1em;
+    }
+    .footer-container-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-column{
+        margin-top: 3em;
+    }
+    .contact-column a{
+        margin-top: 1em;
+    }
+    #last-column{
+        order: -1;
+        margin-right: 2em;
     }
 }
 @media (max-width: 800px){

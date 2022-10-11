@@ -11,14 +11,14 @@ block.forEach( (cadaBlock, j)=>{
 punto.forEach( (cadaPunto, i)=>{
     punto[i].addEventListener('click',()=>{
             let operacion = position(i);
-            grande.style.transform = `translateX(${operacion}%)`
+            grande.style.transform = `translateX(${operacion}%)`;
             punto.forEach( (cadaPunto, i)=>{
                 punto[i].classList.remove('activo');
                 block[i].style.opacity = 0;
             });
             punto[i].classList.add('activo');  
             block[i].style.opacity = 1;
-    })
+    });
 });
 
 function position(i){
