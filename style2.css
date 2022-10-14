@@ -133,6 +133,15 @@ nav{
     flex-direction: column;
     justify-content: center;
 }
+.right-column .fa-bars{
+    display: none;
+    font-size: 40px;
+    padding: .35em;
+    border-radius: 5px;
+    color: #37BBED;
+    background-color: #3B4449;
+    cursor: pointer;
+}
 /*FIN HEADER*/
 /*BOTON DE SUBIDA*/
 .button-up{
@@ -484,6 +493,12 @@ footer{
     }
 }
 @media (max-width: 900px){
+    .redes, .contacto-div{
+        display: none;
+    }
+    .right-column .fa-bars{
+        display: block;
+    }
     .FA-flex-container{
         flex-wrap: wrap;
     }
@@ -526,7 +541,6 @@ footer{
     }
     .footer-container-flex{
         flex-direction: column;
-        align-items: center;
     }
     .contact-column{
         margin-top: 3em;
