@@ -12,6 +12,7 @@ body{
     letter-spacing: 0.2px;
     background-color: #dbdbdb;
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    overflow-x: hidden;
 }
 section{
     background-color: #fff;
@@ -90,9 +91,18 @@ header{
     visibility: hidden;
     transition: all .6s;
 }
+.submenu .menu-item{
+    margin-left: 0;
+}
 .submenu .menu-link{
     background-color: whitesmoke;
     padding: 1em 2em;
+}
+.submenu .menu-item:hover{
+    background-color: rgb(227, 227, 227);
+}
+.submenu .menu-link:hover{
+    background-color: rgb(227, 227, 227);
 }
 .container-submenu:hover .submenu{
     opacity: 1;
@@ -449,10 +459,15 @@ footer{
         padding: 1.5em;
     }
 }
-@media (max-width: 1115px){
+@media (max-width: 1145px){
     .header-container{
         width: 100%;
     }
+    .right-column{
+        padding-right: 1em;
+    }
+}
+@media (max-width: 1115px){
     .button-up{
         display: none;
     }
@@ -470,9 +485,8 @@ footer{
         font-size: 1.8vw; 
     }
 }
-@media (max-width: 1010px){
+@media (max-width: 1050px){
     header{
-        width: 100%;
         padding: 0;
     }
     .header-container{
@@ -480,6 +494,20 @@ footer{
         flex-direction: column;
         width: 100%;
     }
+    .logo-container{
+        margin-left: 1em;
+    }
+    .main-nav{
+        order: 1;
+        align-self: center;
+        margin-top: 1.5em;
+    }
+    .right-column{
+        position: absolute;
+        right: 1em;
+    }
+}
+@media (max-width: 900px){
     .logo-container{
         margin-left: 2em;
     }
@@ -499,25 +527,34 @@ footer{
         margin-bottom: .5em;
     }
     .main-nav{
+        position: absolute;
+        top: 6em;
         order: 1;
-    }
-    .main-nav{
         width: 100%;
+        z-index: 1000;
+        overflow-x: hidden;
     }
     .menu{
         flex-direction: column;
+        justify-content: space-between;
         width: 100%;
         margin-left: 110%;
-        padding: 1em 0 2em 0;
+        padding: 0;
         background-color: #3B4449;
         transition: .8s;
     }
     .menu-item{
-        padding-top: 1em;
         margin-left: 0;
+        padding: 0;
+    }
+    .menu-item:hover{
+        background-color: #37BBED;
     }
     .menu-link{
         display: block;
+        font-size: 16px;
+        padding: 2em;
+        margin-left: 0;
         color: #fff;
     }
     .submenu{
@@ -528,13 +565,20 @@ footer{
         opacity: 1;
         visibility: visible;
         box-shadow: 0px 0px 0px #000;
+        background-color: #2b3235;
+    }
+    .submenu .menu-item:hover .menu-link{
+        background-color: #309ec5;
+    }
+    .submenu .menu-item:hover{
+        background-color: #309ec5;
     }
     .submenu .menu-item{
         background-color: #2b3235;
     }
     .submenu .menu-link{
         background-color: #2b3235;
-        padding: 1em 4em;
+        padding: 2em 2.5em;
     }
     .mostrar{
         margin-left: 0;
@@ -542,6 +586,10 @@ footer{
     .right-column{
         display: none;
     }
+    #active{
+        color: #fff;
+    }
+    /*OF AC*/
     .FA-flex-container{
         flex-wrap: wrap;
     }

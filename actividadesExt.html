@@ -17,34 +17,34 @@
 			<div class="logo-container">
 				<img class='logo' src="assets/logos/logo.png" alt="logo">
 			</div>
-			<nav>
-				<ul class="nav-content">
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="#">INSTITUCIONAL</a>
-						<ul class="dropdown-nav">
-							<li><a href="origenes.html">SUS ORIGENES</a></li>
-							<li><a href="funcion.html">FUNCIÓN</a></li>
-							<li><a href="autoridades.html">AUTORIDADES</a></li>
-						</ul>
-					</li>
-					<li><a href="ofertaAcademica.html">OFERTA ACADÉMICA</a></li>
-					<li><a href="index.html#novedades">NOVEDADES</a></li>
-					<li><a href="#">INVESTIGACION</a>
-						<ul class="dropdown-nav">
-							<li><a href="lineasInv.html">LÍNEAS DE INVESTIGACIÓN</a></li>
-							<li><a href="actividadesInv.html">ACTIVIDADES DE INVESTIGACIÓN</a></li>
-						</ul>
-					</li>
-					<li><a id="active" href="#">EXTENSION</a>
-						<ul class="dropdown-nav">
-							<li><a href="lineasExt.html">LÍNEAS DE EXTENSIÓN</a></li>
-							<li><a href="actividadesExt.html">ACTIVIDADES DE EXTENSIÓN</a></li>
-							<li><a href="biblioteca.html">BIBLIOTECA</a></li>
-						</ul>
-					</li>
-				</ul>
-			</nav>
-			<div class="right-column">
+            <nav class="main-nav">
+                <ul class="menu" id="menu">
+                    <li class="menu-item"><a href="index.html" class="menu-link">HOME</a></li>
+                    <li class="menu-item container-submenu"><a href="#" class="menu-link submenu-btn">INSTITUCIONAL</a>
+                        <ul class="submenu">
+                            <li class="menu-item"><a href="origenes.html" class="menu-link">SUS ORIGENES</a></li>
+                            <li class="menu-item"><a href="funcion.html" class="menu-link">FUNCIÓN</a></li>
+                            <li class="menu-item"><a href="autoridades.html" class="menu-link">AUTORIDADES</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="ofertaAcademica.html" class="menu-link">OFERTA ACADÉMICA</a></li>
+                    <li class="menu-item"><a href="index.html#novedades" class="menu-link">NOVEDADES</a></li>
+                    <li class="menu-item container-submenu"><a href="#" class="menu-link submenu-btn">INVESTIGACION</a>
+                        <ul class="submenu">
+                            <li class="menu-item"><a href="lineasInv.html" class="menu-link">LÍNEAS DE INVESTIGACIÓN</a></li>
+                            <li class="menu-item"><a href="actividadesInv.html" class="menu-link">ACTIVIDADES DE INVESTIGACIÓN</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item container-submenu"><a id="active" href="#" class="menu-link submenu-btn">EXTENSION</a>
+                        <ul class="submenu">
+                            <li class="menu-item"><a href="lineasExt.html" class="menu-link">LÍNEAS DE EXTENSIÓN</a></li>
+                            <li class="menu-item"><a href="actividadesExt.html" class="menu-link">ACTIVIDADES DE EXTENSIÓN</a></li>
+                            <li class="menu-item"><a href="biblioteca.html" class="menu-link">BIBLIOTECA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="right-column">
 				<div class="redes">
 					<a href="https://www.facebook.com/Facultad-Militar-Conjunta-109912505188760" target="_blank"><img class='red-img' src="assets/redes/fb.ico" alt="facebook"></a>
 					<a href="https://www.instagram.com/fmc.arg/" target="_blank"><img class='red-img' src="assets/redes/ig.ico" alt="instagram"></a>
@@ -55,7 +55,10 @@
 					<button class="contacto-btn"><a id="contact-link" href='#contacto'>CONTACTO</a></button>
 				</div>
 			</div>
-		</div>
+			<div class="nav-icon btn-menu">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+        </div>
     </header>
 	<section id="presentacionExt">
 		<div class="traza">
@@ -126,5 +129,7 @@
 			</div>
 		</div>
     </footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="code.js"></script>
 </body>
 </html>
