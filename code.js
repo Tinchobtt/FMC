@@ -1,6 +1,6 @@
 /*HEADER*/
 const btnMenu = document.querySelector('.btn-menu');
-const menu = document.querySelector('.menu');
+const menu = document.querySelector('.main-nav');
 const subMenuBtn = document.querySelectorAll('.submenu-btn');
 
 btnMenu.addEventListener('click', ()=>{

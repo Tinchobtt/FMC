@@ -103,6 +103,7 @@ body{
     background-color: #37BBED;
     cursor: pointer;
     list-style-type: none;
+    z-index: 100;
 }
 .carrousel .punto.activo{
     background-color: #027BC1;

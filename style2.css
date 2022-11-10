@@ -532,16 +532,16 @@ footer{
         order: 1;
         width: 100%;
         z-index: 1000;
-        overflow-x: hidden;
+        margin-left: 200%;
+        transition: .8s;
     }
     .menu{
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
-        margin-left: 110%;
         padding: 0;
         background-color: #3B4449;
-        transition: .8s;
+        z-index: 1000;
     }
     .menu-item{
         margin-left: 0;
