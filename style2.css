@@ -38,7 +38,7 @@ section{
 /*INICIO HEADER*/
 header{
     width: 100%;
-    height: 100%;
+
     background-color: #fff;
     padding: 1.5em 0;
 }
@@ -46,7 +46,7 @@ header{
     display: flex;
     width: 90%;
     margin: auto;
-    padding: 1.5em 0;
+    padding: 1em 0;
 }
 .logo{
     height: 4.6em;
@@ -467,24 +467,6 @@ footer{
         padding-right: 1em;
     }
 }
-@media (max-width: 1115px){
-    .button-up{
-        display: none;
-    }
-    .carrousel .crsel-block .crsel-content{
-        width: 50%;
-        padding: 1.5em;
-    }
-    .carrousel .crsel-block .crsel-content h3{
-        font-size: 1.5vw; 
-    }
-    .carrousel .crsel-block .crsel-content h1{
-        font-size: 3vw; 
-    }
-    .carrousel .crsel-block .crsel-content p{
-        font-size: 1.8vw; 
-    }
-}
 @media (max-width: 1050px){
     header{
         padding: 0;
@@ -505,6 +487,9 @@ footer{
     .right-column{
         position: absolute;
         right: 1em;
+    }
+    .button-up{
+        display: none;
     }
 }
 @media (max-width: 900px){
