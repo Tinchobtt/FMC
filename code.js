@@ -54,7 +54,7 @@ function prev(){
         slider.style.transition = 'none';
         slider.insertAdjacentElement('afterbegin', sliderSectionLast);
         slider.style.marginLeft = '-100%';
-    }, 500);
+    }, 1000);
 }
 function opacidad(){
     let content = document.querySelectorAll('.section_content');

@@ -34,7 +34,7 @@ body{
     position: absolute;
     width: 50%;
     height: 100%;
-    padding: 4em 2em 1em 6em;
+    padding: 2em 6em;
     background-color: rgba(0, 0, 0, 0.4);
     text-decoration: none;
 }
@@ -69,7 +69,7 @@ body{
     bottom: 2em;
     margin-top: 2em;
     padding: .8em;
-    font-size: 1.2vw;
+    font-size: 16px;
     border-radius: 5px;
     color: #fff;
     background-color: #37BBED;
@@ -127,6 +127,7 @@ body{
     flex-wrap: wrap;
     width: 90%;
     margin: auto;
+    margin-bottom: 4em;
 }
 .study{
     width: 24%;
@@ -145,15 +146,20 @@ body{
     font-weight: 700;
     font-size: 20px;
 }
+.dropdown-study{
+    position: relative;
+    cursor: pointer;
+}
 .dropdown-study p{
     display: flex;
     justify-content: flex-end;
     font-weight: 700;
     font-size: 10px;
     background-color: #37BBED;
-    border-radius: 0px 0px 5px 5px;
     padding: 1em;
     color: #fff;
+    border-radius: 0 0 5px 5px;
+    transition: ease-in 1s;
 }
 .dropdown-study ul li{
     padding: 0.2em;
@@ -171,23 +177,22 @@ body{
 .dropdown-study ul li:hover a{
     color: #3B4449;
 }
-.dropdown-study{
-    position: relative;
-}
 .dropdown-study ul{
-    visibility: hidden;
     position: absolute;
     width: 100%;
     padding: 1em 1em;
     background-color: #37BBED;
     z-index: 1000;
     border-radius: 0px 0px 5px 5px;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: .7s;
 }
 .dropdown-study:hover ul{
-    visibility: visible;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 .dropdown-study:hover p{
     border-radius: 0;
+    transition: ease-in .1s;
 }
 .FA-link{
     display: flex;
@@ -198,7 +203,7 @@ body{
 }
 .FA-link a{
     text-decoration: none;
-    padding-bottom: 5em;
+    margin-bottom: 2em;
     font-size: 15px;
     font-weight: 600;
     color: #37BBED;
