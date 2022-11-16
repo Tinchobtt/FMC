@@ -655,7 +655,14 @@ footer{
     .FA-flex-container{
         flex-wrap: nowrap;
         flex-direction: column;
-
+        align-items: center;
+    }
+    .blue{
+        width: 95%;
+        margin: 2em 0;
+    }
+    .FA-block{
+        padding: 2em 1em;
     }
 }
 @media (max-width: 650px){

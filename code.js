@@ -108,3 +108,14 @@ btnLeft.addEventListener('click', ()=>{
 var time = new Timer(function() {
     next();
 }, 8000);
+
+/*OFERAT ACADEMICA INDEX*/
+const dropStudy = document.querySelectorAll('.dropdown-study');
+dropStudy.forEach((cadaDrop)=>{
+    cadaDrop.addEventListener('click',()=>{
+        let p = cadaDrop.childNodes[1];
+        let ul = cadaDrop.childNodes[3];
+        p.classList.toggle('border');
+        ul.classList.toggle('bajar');   
+    });
+});

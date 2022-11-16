@@ -66,7 +66,7 @@ body{
     align-self: flex-start;
     width: auto;
     height: auto;
-    bottom: 2em;
+    bottom: 4em;
     margin-top: 2em;
     padding: .8em;
     font-size: 16px;
@@ -186,13 +186,20 @@ body{
     border-radius: 0px 0px 5px 5px;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     transition: .7s;
-}
+}/*
 .dropdown-study:hover ul{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 .dropdown-study:hover p{
     border-radius: 0;
     transition: ease-in .1s;
+}*/
+.border{
+    border-radius: 0 !important;
+    transition: ease-in .1s !important;
+}
+.bajar{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
 }
 .FA-link{
     display: flex;
