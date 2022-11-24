@@ -445,7 +445,27 @@ footer{
     color: #027BC1;
     transform: scale(1.1);
 }
-
+/*NOVEDADES HTML*/
+.novedad-img{
+    position: relative;
+}
+.novedad-img img{
+    width: 60%;
+    height: 20em;
+    object-fit: cover;
+}
+.novedad-img p{
+    display: block;
+    width: 60%;
+    background-color: whitesmoke;
+    position: absolute;
+    padding: .5em;
+    top: 0;
+    color: #000;
+}
+.novedad-content{
+    width: 60%;
+}
 /*MONITOR > 27*/
 @media (max-width: 1920px){
     body{
@@ -460,9 +480,6 @@ footer{
     }
     header{
         padding: 1.5em;
-    }
-    .button-up{
-        display: none;
     }
 }
 @media (max-width: 1145px){
@@ -496,6 +513,9 @@ footer{
     }
 }
 @media (max-width: 900px){
+    .button-up{
+        display: none;
+    }
     .logo-container{
         margin-left: 2em;
     }
