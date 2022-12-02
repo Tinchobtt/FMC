@@ -38,7 +38,6 @@ section{
 /*INICIO HEADER*/
 header{
     width: 100%;
-
     background-color: #fff;
     padding: 1.5em 0;
 }
@@ -497,7 +496,6 @@ footer{
     .header-container{
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
     .logo-container{
         margin-left: 1em;
@@ -540,7 +538,7 @@ footer{
         order: 1;
         width: 100%;
         z-index: 1000;
-        margin-left: 200%;
+        margin-left: -200%;
         transition: .8s;
     }
     .menu{
@@ -575,6 +573,7 @@ footer{
         visibility: visible;
         box-shadow: 0px 0px 0px #000;
         background-color: #2b3235;
+        overflow-x: hidden;
     }
     .submenu .menu-item{
         background-color: #2b3235;
