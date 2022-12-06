@@ -98,16 +98,16 @@ function Timer(fn, t) {
 
 btnRight.addEventListener('click', ()=>{
     next();
-    time.reset(8000);
+    time.reset(17000);
 });
 btnLeft.addEventListener('click', ()=>{
     prev();
-    time.reset(8000);
+    time.reset(17000);
 });
 
 var time = new Timer(function() {
     next();
-}, 8000);
+}, 17000);
 
 /*OFERAT ACADEMICA INDEX*/
 const dropStudy = document.querySelectorAll('.dropdown-study');
