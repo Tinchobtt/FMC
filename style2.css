@@ -466,17 +466,13 @@ footer{
     width: 60%;
 }
 /*MONITOR > 27*/
-@media (max-width: 1920px){
+@media (min-width: 1400px){
     body{
-        width: 80%;
+        width: 1400px;
         margin: auto;
     }
 }
 @media (max-width: 1350px){
-    body{
-        width: 100%;
-        margin: auto;
-    }
     header{
         padding: 1.5em;
     }
